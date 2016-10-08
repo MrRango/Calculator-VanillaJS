@@ -1,0 +1,44 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+}
+#mainDiv {
+    margin-top: 100px;
+    width: 430px;
+    background-color: red;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.displayDiv {
+    margin: 20px;
+    background-color: #7dc69e;
+    text-align: right;
+    height: 50px;
+    border-radius: 5px;
+}
+.textDiv {
+    margin-right: 5px;
+    font-size: 35px;
+}
+#buttonsDiv {
+    margin-left: 15px;
+}
+.numbersDiv {
+    width: 50%;
+    float: left;
+}
+.operatorsDiv {
+    width: 35%;
+    margin-right: 10px;
+    float: right;
+}
+.btn, .btn:focus {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    outline: none;
+}
+.btn_big, .btn_big:focus {
+    width: 115px;
+    outline: none;
+}

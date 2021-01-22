@@ -1,0 +1,48 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-image: url(https://cdn2.vectorstock.com/i/thumb-large/14/31/math-chemistry-and-physical-formules-on-white-vector-27941431.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#mainDiv {
+    margin-top: 100px;
+    width: 430px;
+    background-color: black;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.displayDiv {
+    margin: 20px;
+    background-color: #7dc69e;
+    text-align: right;
+    height: 50px;
+    border-radius: 5px;
+}
+.textDiv {
+    margin-right: 5px;
+    font-size: 35px;
+}
+#buttonsDiv {
+    margin-left: 15px;
+}
+.numbersDiv {
+    width: 50%;
+    float: left;
+}
+.operatorsDiv {
+    width: 35%;
+    margin-right: 10px;
+    float: right;
+}
+.btn, .btn:focus {
+ 
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    outline: none;
+}
+.btn_big, .btn_big:focus {
+    width: 115px;
+    outline: none;
+}
